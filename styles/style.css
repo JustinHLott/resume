@@ -7,7 +7,7 @@
 .page-header{
     background-color:darkslategray;
     color:white;
-    text-align:center;
+    text-align:left;
 }
 .page-header h2{
     margin-top: 5px;
@@ -27,13 +27,16 @@ h2{
 }
 /* Combinator selector */
 main p{
-    font-size:24px;
-    color:slategray; 
+    /*font-size:24px;
+    color:slategray; */
     margin: 24px 8px;
 }
 /* ID selector */
 #extensive{
     font-style: italic;
+}
+.marginleft{
+    margin-left: 3 !important;
 }
 .highlight{
     color:darkslategray;
@@ -46,6 +49,7 @@ main p{
     color: darkslategray;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
+    font-weight: bold;
     margin: 0px 8px;
 }
 .skills{
@@ -90,20 +94,37 @@ a[href="http://www.github.com"]{
 }
 /* Pseudo class selector */
 a:link{
-    color: white;
+    color: blue !important;
 }
-a:visited{
-    color: grey;
-}
+/*a:visited{
+    color: rgb(163, 163, 163);
+}*/
 a:hover{
-    color: yellow;
+    background-color: slategray;
 }
-a:active{
+/*a:any-link{
+    background-color:#40c463
+}*/
+/*a:active{
     color: orange;
-}
+}*/
+
+
 .hobbies{
     margin: 12px;
 }
 .hobbies-image{
     vertical-align: middle;
+}
+ul {
+    padding-left: 1em !important;
+    margin-left: 1em;
+  }
+  
+li {
+    list-style-type: disc !important;
+  }
+  .phone{
+    font-size:24px;
+    color:slategray!important; 
 }
