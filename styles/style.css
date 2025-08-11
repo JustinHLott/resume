@@ -25,6 +25,9 @@ h2{
     font-size:32px;
     text-transform:uppercase;
 }
+nav{
+    margin-left:10px;
+}
 /* Combinator selector */
 main p{
     /*font-size:24px;
