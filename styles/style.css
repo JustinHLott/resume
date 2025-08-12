@@ -35,6 +35,14 @@ main p{
     margin: 24px 8px;
 }
 /* ID selector */
+#theTable{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 #extensive{
     font-style: italic;
 }
