@@ -17,6 +17,9 @@
     display: block;
     padding-bottom: 10px;
 }
+.textCenter{
+    text-align: center;
+}
 /* Element type selector */
 h1{
     font-size:40px;
@@ -138,4 +141,23 @@ li {
   .phone{
     font-size:24px;
     color:slategray!important; 
+}
+
+table {
+    border: 2px solid rgb(47,79,79);
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+    background-color: rgb(241, 242, 244);
+}
+td, th {
+    padding: .5em;
+    border: 2px solid rgb(47,79,79);
+}
+th {
+    color: rgb(241, 242, 244);
+    background-color: rgb(47,79,79);
+}
+tr:nth-of-type(odd) {
+    background-color: lightgray;
 }
