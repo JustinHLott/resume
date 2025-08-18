@@ -46,6 +46,9 @@ main p{
     padding-left: 30px;
     padding-right: 30px;
 }
+.theTable{
+    overflow-x: auto;/*Enables horizontal scrolling*/
+}
 #extensive{
     font-style: italic;
 }
